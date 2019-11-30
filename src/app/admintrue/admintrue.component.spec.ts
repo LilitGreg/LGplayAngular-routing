@@ -1,22 +1,22 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomerComponent } from './customer.component';
+import { AdmintrueComponent } from './admintrue.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 
-describe('CustomerComponent', () => {
-  let component: CustomerComponent;
-  let fixture: ComponentFixture<CustomerComponent>;
+describe('AdmintrueComponent', () => {
+  let component: AdmintrueComponent;
+  let fixture: ComponentFixture<AdmintrueComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CustomerComponent ],
+      declarations: [ AdmintrueComponent ],
       schemas: [NO_ERRORS_SCHEMA]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CustomerComponent);
+    fixture = TestBed.createComponent(AdmintrueComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
