@@ -6,12 +6,14 @@ import { AdmintrueComponent } from './admintrue.component';
 import { EmailBlastComponent } from './email-blast/email-blast.component';
 import { UsersComponent } from './users/users.component';
 
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [AdmintrueComponent, EmailBlastComponent, UsersComponent],
   imports: [
     CommonModule,
-    AdmintrueRoutingModule
+    AdmintrueRoutingModule,
+    DragDropModule
   ]
 })
 export class AdmintrueModule { }

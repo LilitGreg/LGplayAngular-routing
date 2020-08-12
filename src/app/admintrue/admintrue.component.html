@@ -1,3 +1,19 @@
 <p>admintrue works!</p>
+<p> aaa </p>
+<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+  <div class="example-box" *ngFor="let movie of movies" cdkDrag>{{movie}}</div>
+</div>
+
+<!-- <div cdkDropListGroup>
+
+  <div cdkDropList *ngFor="let movie of movies"></div>
+</div> -->
+<div cdkDrag>
+  I'm Draggable
+</div>
+
+<!-- <cdk-drop (dropped)="onDrop($event)">
+  <div *ngFor="let item of movies" cdkDrag>{{item}}</div>
+</cdk-drop> -->
 
 <router-outlet></router-outlet>
